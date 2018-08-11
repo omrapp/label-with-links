@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tapLabel: UILabelWithTapLinks!
     @IBOutlet weak var tapLabel2: UILabelWithTapLinks!
     
-    var links = ["Google", "Facebook", "Twitter", "Youtube"]
+    let links = ["Google", "Facebook", "Twitter", "Youtube"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
